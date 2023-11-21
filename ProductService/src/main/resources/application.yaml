@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/productdb
+    username: amazon
+    password: pass123!
+
+  # JPA/Hibernate properties
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      format_sql: true
+      dialect: org.hibernate.dialect.MySQLDialect
+
+# Custom Server Port
+server:
+  port: 9090
