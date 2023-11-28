@@ -3,7 +3,6 @@ spring:
     url: jdbc:mysql://localhost:3306/productdb
     username: amazon
     password: pass123!
-
   # JPA/Hibernate properties
   jpa:
     show-sql: true
@@ -11,7 +10,18 @@ spring:
       ddl-auto: update
       format_sql: true
       dialect: org.hibernate.dialect.MySQLDialect
+  application:
+    name: PRODUCT-SERVICE
 
 # Custom Server Port
 server:
   port: 9090
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:9091/eureka}
