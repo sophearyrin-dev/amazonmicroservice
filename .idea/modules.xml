@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ProductService/ProductService.iml" filepath="$PROJECT_DIR$/ProductService/ProductService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RegistryService/RegistryService.iml" filepath="$PROJECT_DIR$/RegistryService/RegistryService.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/amazonmicroservice.iml" filepath="$PROJECT_DIR$/.idea/amazonmicroservice.iml" />
     </modules>
   </component>
